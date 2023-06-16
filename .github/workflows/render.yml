@@ -1,0 +1,11 @@
+- name: Render Deployment
+  # You may pin to the exact commit or the version.
+  # uses: sws2apps/render-deployment@4da6246b4ad953ffbcfc5fc2b2857f24ab286c42
+  uses: sws2apps/render-deployment@v1.3.0
+  with:
+    # The Service ID of your Render service
+    serviceId: 
+    # Your personal API key to interact with Render
+    apiKey: # optional
+    # Specify if having multiple deployment is allowed
+    multipleDeployment: # optional, default is true
